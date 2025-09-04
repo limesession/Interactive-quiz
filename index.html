@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive English Quiz</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        
+        <div id="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                </div>
+            <div id="feedback"></div>
+        </div>
+
+        <div id="results" class="hide">
+            <h2>Quiz Finished!</h2>
+            <p>You scored <span id="score">0</span> out of <span id="total-questions">0</span>.</p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
